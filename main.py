@@ -217,5 +217,5 @@ slider_year.on_change('value', update_map_data)
 
 inputs = column(slider_year)
 curdoc().add_root(row(plot, column(inputs, map_plot), width=1000))
-curdoc().title = "Sliders"
+curdoc().title = "Climate Data Visualiser"
 # show(row(inputs, p, width=800))
